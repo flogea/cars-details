@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  gap: 40px;
+  padding: 28px 3%;
+  background: transparent;
+  // position: absolute;
+
+  .navLink {
+    cursor: pointer;
+
+    a {
+      color: black;
+      text-decoration: none;
+      transition: all 0.2s ease;
+
+      &:hover {
+        color: #ff4f5a;
+      }
+    }
+  }
+}

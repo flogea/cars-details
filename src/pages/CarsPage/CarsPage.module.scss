@@ -1,0 +1,50 @@
+.carPage {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  padding: 0 3%;
+  gap: 40px;
+
+  .filters {
+    // width: 100%;
+    display: flex;
+    gap: 24px;
+    flex: 1;
+  }
+
+  .emptyFilters {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      max-width: 1200px;
+    }
+  }
+
+  .button {
+    background: #ff4f5a;
+
+    &:hover {
+      background: #d8414b;
+    }
+  }
+
+  .outlinebutton {
+    border-color: #ff4f5a;
+    color: #ff4f5a;
+
+    &:hover {
+      border-color: #d8414b;
+    }
+  }
+
+  .cars {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
